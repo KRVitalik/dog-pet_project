@@ -7,6 +7,8 @@ font-size: 20px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+margin-top: 25px;
+margin-bottom: 20px;
 `;
 
 export {SearchGalleryText}

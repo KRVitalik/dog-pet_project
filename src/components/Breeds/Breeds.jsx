@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import icon from '../assets/symbol.svg'
-import { BreedsMainContainer, BreedButtonIconSort, GridElementOptions, GridElementOptionsLimit, BreedButtonSort, BreedBtnContainer, BreedsHeadButton, BreedForm, BreedsName, BreedsNameContainer } from './Breeds.styled';
+import { BreedsMainContainer, BreedButtonIconSort, GridElementOptions, GridElementOptionsLimit, BreedButtonSort, BreedBtnContainer, BreedsHeadButton, BreedForm, BreedsName, BreedsNameContainer, BreedsContainer } from './Breeds.styled';
 import Search from '../Search/Search';
 import BackButton from '../BackButton/BackButton';
 import { getAllBreedsName, getCurrentBreed } from '../API/getBreeds';
@@ -56,7 +56,7 @@ useEffect(() => {
     }
     
     return (
-        <div>
+        <BreedsContainer>
             <Search />
             <BreedsMainContainer>
                 <BreedBtnContainer>
@@ -111,7 +111,7 @@ useEffect(() => {
                         </ImageListElement>)}
             </ImageLists>
             </BreedsMainContainer>
-        </div>
+        </BreedsContainer>
     )
 };
 

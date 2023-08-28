@@ -1,7 +1,7 @@
 import BackButton from '../BackButton/BackButton'
 import Search from '../Search/Search'
 import React from 'react'
-import { BreedsMainContainer } from '../Breeds/Breeds.styled'
+import { BreedsContainer, BreedsMainContainer } from '../Breeds/Breeds.styled'
 import { ImageListElement, ImageListElementImg, ImageLists } from '../ImageList/ImageList.styled'
 import { useSelector } from 'react-redux'
 import { LikesHeadContainer } from '../Likes/Likes.styled'
@@ -12,7 +12,7 @@ const Favourites = () => {
     const catImages = useSelector(state => state.myCat.favorites);
     
   return (
-      <div>
+      <BreedsContainer>
             <Search />
       <BreedsMainContainer>
       <LikesHeadContainer>
@@ -25,7 +25,7 @@ const Favourites = () => {
                       : <NoImgText>No item found</NoImgText>}
           </ImageLists>
           </BreedsMainContainer>
-      </div>
+      </BreedsContainer>
   )
 }
 

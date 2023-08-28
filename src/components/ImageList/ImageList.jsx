@@ -1,6 +1,7 @@
 import React from 'react'
 import { ImageListElement, ImageListElementImg, ImageLists } from './ImageList.styled';
 import { useSelector } from 'react-redux';
+import { BreedsContainer } from '../Breeds/Breeds.styled';
 
 const ImageList = () => {
     const catImages = useSelector(state => state.myCat.imagesOfBreeds);

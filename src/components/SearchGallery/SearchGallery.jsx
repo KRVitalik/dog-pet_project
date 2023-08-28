@@ -6,12 +6,13 @@ import React from 'react'
 import { SearchGalleryText } from './SearchGallery.styled'
 import ImageList from '../ImageList/ImageList'
 import { useSelector } from 'react-redux'
+import { BreedsContainer } from '../Breeds/Breeds.styled'
 
 const SearchGallery = () => {
     const breedQuery = useSelector(state => state.myCat.currentBreedsName);
     
   return (
-      <div>
+      <BreedsContainer>
           <Search />
           <GalleryBackBtnContainer>
               <BackButton />
@@ -19,7 +20,7 @@ const SearchGallery = () => {
           </GalleryBackBtnContainer>
           <p><SearchGalleryText>Search results for: { breedQuery }</SearchGalleryText> </p>
           <ImageList/>
-      </div>
+      </BreedsContainer>
   )
 }
 

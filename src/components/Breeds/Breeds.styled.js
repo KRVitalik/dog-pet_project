@@ -1,5 +1,11 @@
 import styled from 'styled-components';
 
+const BreedsContainer = styled.div`
+height: 100vh;
+width: 50%;
+margin-left: auto;
+`;
+
 const BreedsMainContainer = styled.div`
 display: flex;
 gap: 20px;
@@ -117,6 +123,7 @@ position: relative;
 `
 
 export {
+    BreedsContainer,
     BreedsNameContainer,
     BreedsName,
     BreedForm,

@@ -4,13 +4,11 @@ import styled from 'styled-components';
 const StickyMainContainer = styled.div`
 max-width: 446px;
 max-height: 544px;
-/* padding-right: 50%; */
-  /* position: fixed;
+  position: fixed;
   top: 30px;
-  left: 0;
-  transform: translate(50% 50%);
-  width: 100%;
-  z-index: 999;  */
+  left: 147px;
+  width: 50%;
+  z-index: 999; 
 `;
 
 const StickyLogoContainer = styled.div`

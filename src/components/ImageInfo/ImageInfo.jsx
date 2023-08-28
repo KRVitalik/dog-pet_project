@@ -9,6 +9,7 @@ import { GalleryMainContainer } from '../Gallery/Gallery.styled'
 import Slider from 'react-slick'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+import { BreedsContainer } from '../Breeds/Breeds.styled'
 
 const ImageInfo = () => {
   const breedImages = useSelector(state => state.myCat.currentBreedsName);
@@ -28,7 +29,7 @@ const ImageInfo = () => {
       slidesToScroll: 1
     };
   return (
-    <div>
+    <BreedsContainer>
       <Search />
       <VotingButtonInfo>
       <BackButton />
@@ -60,7 +61,7 @@ const ImageInfo = () => {
            </ImageInfoBreedsContainer>
         </ImageInfoContainer>
       </GalleryMainContainer>
-    </div>
+    </BreedsContainer>
   )
 }
 

@@ -1,11 +1,10 @@
 import styled from 'styled-components';
 
 const VotingMainContainer = styled.div`
-/* width: 680px;
-height: auto;
-flex-shrink: 0;
-width: 50%; */
-/* padding-left: 50%; */
+
+height: 100vh;
+width: 50%;
+margin-left: auto;
 `;
 
 const VotingCatImage = styled.img`

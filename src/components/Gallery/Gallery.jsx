@@ -11,6 +11,7 @@ import { GalleryType, galleryBreedSort, limitPerPage } from '../assets/galleryOp
 import { getAllBreedsName, getCurrentBreedType } from '../API/getBreeds';
 import { ButtonBackIcon } from '../BackButton/BackButton.styled';
 import BackButton from '../BackButton/BackButton';
+import { BreedsContainer } from '../Breeds/Breeds.styled';
 
 
 const Gallery = () => {
@@ -48,7 +49,7 @@ const Gallery = () => {
   }
 
   return (
-    <div>
+    <BreedsContainer>
       <Search />
       <GalleryMainContainer>
         <GalleryUploadBtnContainer>
@@ -97,7 +98,7 @@ const Gallery = () => {
         </GalleryFormContainer>
         <ImageList />
       </GalleryMainContainer>
-      </div> 
+      </BreedsContainer> 
   )
 };
 
