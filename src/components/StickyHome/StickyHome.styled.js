@@ -7,8 +7,7 @@ max-height: 544px;
   position: fixed;
   top: 30px;
   left: 147px;
-  width: 50%;
-  z-index: 999; 
+  width: 50%; 
 `;
 
 const StickyLogoContainer = styled.div`

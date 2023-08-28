@@ -13,9 +13,9 @@ const Modal = () => {
         e.target.tagName === 'SECTION' && dispatch(modal(!modalValue))
         e.currentTarget.tagName === "BUTTON" && dispatch(modal(!modalValue))
     }
-    
+
     const handleEscape = (e) => {
-        e.code === 'Escape' && dispatch(modal(!modalValue))
+      e.code === 'Escape' && dispatch(modal(!modalValue))
     }
 
   return (
