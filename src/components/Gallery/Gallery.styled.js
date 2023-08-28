@@ -4,7 +4,6 @@ import { ButtonBackIcon } from '../BackButton/BackButton.styled';
 const GalleryMainContainer = styled.div`
 display: flex;
 flex-direction: column;
-/* align-items: center; */
 width: 680px;
 height: auto;
 border-radius: 20px;

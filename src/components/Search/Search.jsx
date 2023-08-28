@@ -7,7 +7,6 @@ import { getSearchBreeds } from '../API/breedsAPI'
 import { Outlet, useLocation, useNavigate } from 'react-router-dom'
 import Spinner from '../Spinner/Spinner'
 import Modal from '../Modal/Modal'
-import { BreedsContainer } from '../Breeds/Breeds.styled'
 
 const Search = () => {
     const modalValue = useSelector(state => state.myCat.modal);
