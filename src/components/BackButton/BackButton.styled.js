@@ -17,8 +17,7 @@ border-radius: 10px;
 &:hover{
     background: #FF868E;
 }
-&:hover
-${ButtonBackIcon}{
+&:hover ${ButtonBackIcon}{
     fill:#FFF;
 }
 `;

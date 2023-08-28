@@ -36,8 +36,7 @@ cursor: pointer;
     background: #FF868E;
     color: #FFF;
 }
-&:hover
-${ButtonBackIcon}{
+&:hover ${ButtonBackIcon}{
     fill: #FFF;
 }
 `

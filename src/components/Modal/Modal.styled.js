@@ -35,9 +35,8 @@ cursor: pointer;
 &:hover{
     background-color: #FF868E;
 }
-&:hover
-${ModalIconImage}{
-fill:#FFF;
+&:hover ${ModalIconImage}{
+fill: #FFF;
 }
 `
 

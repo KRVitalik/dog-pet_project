@@ -69,8 +69,7 @@ border: 0;
 &:hover{
     border: 2px solid #FBE0DC;
 }
-&:hover
-${BreedButtonIconSort}{
+&:hover ${BreedButtonIconSort}{
     fill: #FF868E;
 }
 `

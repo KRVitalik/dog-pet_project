@@ -35,8 +35,7 @@ border: 0;
 &.active {
     background: #FF868E;
 }
-&.active
-${SearchBtnIcon}{
+&.active ${SearchBtnIcon}{
         fill: #FFF;
         background-color: #FF868E;
     color: #FFF;
@@ -45,7 +44,6 @@ ${SearchBtnIcon}{
 
 const SearchInput = styled.input`
 width: 470px;
-/* flex-shrink: 0; */
 border-radius: 20px;
 background: #FFF;
 color: #8C8C8C;

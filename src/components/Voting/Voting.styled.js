@@ -88,8 +88,7 @@ border: 2px solid transparent;
 &:hover{
     background-color: rgb(151 234 185 / 30%);
 }
-&:hover
-${VotingButtonVoteSvg}{
+&:hover ${VotingButtonVoteSvg}{
         fill: #97EAB9;
 }
 `;
@@ -105,8 +104,7 @@ border: 2px solid transparent;
 &:hover{
     background-color: rgb(255 134 142 / 30%);
 }
-&:hover
-${VotingButtonVoteSvg}{
+&:hover ${VotingButtonVoteSvg}{
         fill: #FF868E;
 }
 `;
@@ -122,8 +120,7 @@ border: 2px solid transparent;
 &:hover{
     background-color: rgb(255 210 128 / 30%);
 }
-&:hover
-${VotingButtonVoteSvg}{
+&:hover ${VotingButtonVoteSvg}{
         fill: #FFD280;
 }
 `;
